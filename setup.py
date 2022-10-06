@@ -28,12 +28,12 @@ setup(
     },
     setup_requires=[
         'pytest-runner',
-        'python-keycloak-client @ git+ssh://git@github.com/dabocs/python-keycloak-client@master#egg=python-keycloak-client',
+        'python-keycloak-client @ git+ssh://git@github.com/tamhub/python-keycloak-client@master#egg=python-keycloak-client',
     ],
     
     install_requires=[
-        'python-keycloak-client @ git+ssh://git@github.com/dabocs/python-keycloak-client@master#egg=python-keycloak-client',
-        'Django>=1.11',
+        'python-keycloak-client @ git+ssh://git@github.com/tamhub/python-keycloak-client@master#egg=python-keycloak-client',
+        'Django>=4.1',
     ],
     tests_require=[
         'pytest-django',
@@ -42,7 +42,7 @@ setup(
         'factory-boy',
         'freezegun'
     ],
-    url='https://github.com/dabocs/django-keycloak',
+    url='https://github.com/tamhub/django-keycloak',
     license='MIT',
     author='Peter Slump',
     author_email='peter@yarf.nl',
