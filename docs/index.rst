@@ -103,3 +103,4 @@ functionality <https://docs.djangoproject.com/en/1.11/topics/auth/default/#limit
 This also counts for `enforcing permissions <https://docs.djangoproject.com/en/1.11/topics/auth/default/#the-permission-required-decorator>`_.
 
 This app makes use of the `Python Keycloak client <https://github.com/tamhub/python-keycloak-client>`_
+
